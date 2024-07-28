@@ -154,6 +154,7 @@ for(x=1;x=1;)
      printf(": 1. Registrar nomes:             :\n");
      printf(": 2. Consultar nomes:             :\n");
      printf(": 3. Delatar nomes:               :\n");
+     printf(": 4. Exite:                       :\n");
      printf(":---------------------------------:\n");
      printf(":ESCOLHA A OPÇÃO DESEJADA         :\n");        
      printf(":---------------------------------:\n");
@@ -178,6 +179,13 @@ for(x=1;x=1;)
             case 3:	
 		    Deletar();
             break;
+            
+              
+            case 4:	
+		    printf("Obrigado por usar o sistema");
+		    return 0;
+            break;
+            
             
             
             default:
